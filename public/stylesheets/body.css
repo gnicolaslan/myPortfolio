@@ -25,20 +25,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.welcome-text {
+    text-align: center;
+    line-height: 1.5;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 2.5vw;
 }
 
 @media screen and (max-width: 600px) {
-    .welcome-section {
+    .welcome-text {
         font-size: 4.5vw;
     }
-}
-
-.welcome-text {
-    text-align: center;
-    line-height: 1.5;
 }
 
 .name {
