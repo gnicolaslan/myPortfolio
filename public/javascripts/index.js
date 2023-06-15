@@ -8,3 +8,10 @@ sr.reveal('.cssbuttons-io', {
     duration: 3000
 })
 
+sr.reveal('.image-container', {
+    duration: 2000
+})
+
+sr.reveal('.self-description', {
+    duration: 3000
+})
