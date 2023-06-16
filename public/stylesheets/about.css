@@ -1,0 +1,108 @@
+@media (max-width: 767px) {
+    .about-section {
+        height: 75vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .profile-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .self-description {
+        margin-top: 20px;
+    }
+
+    .about-name {
+        font-weight: 500;
+        color: #353839;
+        font-size: 25px;
+        font-family: 'Poppins', 'sans-serif';
+        padding-bottom: 10px;
+    }
+
+    .image-container {
+        width: 230px;
+        margin: 0 auto 20px;
+        padding: 10px;
+
+    }
+
+    .self-description {
+        font: 700;
+        font-size: 15px;
+        text-align: center;
+        margin: 0px 20px;
+        letter-spacing: 0.5px;
+        color: #353839;
+        font-family: 'Poppins', 'sans-serif';
+    }
+
+    .social-items ul {
+        display: flex;
+        justify-content: center;
+        margin: 20px 25px;
+        font-size: 20px;
+    }
+
+    .social-items li {
+        margin: 0px 25px 0px 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-section {
+        height: 55vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .profile-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .self-description {
+        margin-left: 20px;
+    }
+
+    .about-name {
+        font-weight: 500;
+        color: #353839;
+        font-size: 2rem;
+        font-family: 'Poppins', 'sans-serif';
+        padding-bottom: 10px;
+    }
+
+    .image-container {
+        width: 360px;
+        padding: 20px;
+        margin: 0px 30px;
+    }
+
+    .self-description {
+        font: 700;
+        font-size: 1.1rem;
+        width: 25vw;
+        letter-spacing: 0.5px;
+        color: #353839;
+        font-family: 'Poppins', 'sans-serif';
+    }
+
+    .social-items ul {
+        display: flex;
+        justify-content: flex-start;
+        font-size: 25px;
+        padding: 15px 0px 0px 0px;
+    }
+
+    .social-items li {
+        margin: 0px 25px 0px 0px;
+    }
+}
