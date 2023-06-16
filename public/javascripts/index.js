@@ -15,3 +15,8 @@ sr.reveal('.image-container', {
 sr.reveal('.self-description', {
     duration: 3000
 })
+
+sr.reveal('.skills-container', {
+    duration: 4500
+})
+

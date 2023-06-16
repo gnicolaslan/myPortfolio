@@ -1,9 +1,9 @@
 body {
   /* padding: 50px; */
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
-  /* background: rgb(224, 195, 252);
-  background: linear-gradient(90deg, rgba(224, 195, 252, 1) 0%, rgba(142, 197, 252, 1) 100%); */
+  background: rgb(187, 179, 210);
+  background: linear-gradient(90deg, rgba(187, 179, 210, 1) 0%, rgba(218, 212, 236, 1) 100%);
 }
 
 a:link,
@@ -19,4 +19,9 @@ ul {
 
 li {
   list-style: none;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0rem;
 }
