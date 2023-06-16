@@ -134,12 +134,101 @@
           </ul>
         </div>
       </section>
+      <section class="work-section">
+        <div id="mis-proyectos" class="work-title">Proyectos</div>
+        <div class="slider">
+          <div><img width="450px"
+              src="https://acf.geeknetic.es/imgri/imagenes/auto/21/06/14/e57-teclados-ansi-iso-.jpg?f=webp" alt="">
+          </div>
+          <div><img width="450px"
+              src="https://acf.geeknetic.es/imgri/imagenes/auto/21/06/14/e57-teclados-ansi-iso-.jpg?f=webp" alt="">
+          </div>
+          <div><img width="450px"
+              src="https://acf.geeknetic.es/imgri/imagenes/auto/21/06/14/e57-teclados-ansi-iso-.jpg?f=webp" alt="">
+          </div>
+          <div><img width="450px"
+              src="https://acf.geeknetic.es/imgri/imagenes/auto/21/06/14/e57-teclados-ansi-iso-.jpg?f=webp" alt="">
+          </div>
+        </div>
+        <div class="works-info">
+          <h3>HyperStore</h3>
+          <h4><span style="color: darkslateblue;">NodeJs</span> · <span style="color: darkslateblue;">JavaScript</span>
+            · <span style="color: darkslateblue;">Express</span> ·
+            <span style="color: darkslateblue;">REST API</span> ·
+            <span style="color: darkslateblue;">MySQL</span>
+          </h4>
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsam aut sit nobis facilis, totam cum
+              eligendi laudantium a, consequuntur praesentium, omnis quasi repudiandae dolore molestias placeat commodi
+              eius provident.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsam aut sit nobis facilis, totam cum
+              eligendi laudantium a, consequuntur praesentium, omnis quasi repudiandae dolore molestias placeat commodi
+              eius provident.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsam aut sit nobis facilis, totam cum
+              eligendi laudantium a, consequuntur praesentium, omnis quasi repudiandae dolore molestias placeat commodi
+              eius provident.</li>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsam aut sit nobis facilis, totam cum
+              eligendi laudantium a, consequuntur praesentium, omnis quasi repudiandae dolore molestias placeat commodi
+              eius provident.</li>
+          </ul>
+        </div>
+        <div>
+          <button class="cssbuttons-io">
+            <a href=""><span><i class="fa-brands fa-github"></i> repo</span></a>
+          </button>
+          <button class="cssbuttons-io">
+            <a href=""><span><i class="fa-solid fa-rocket"></i> deploy</span></a>
+          </button>
+        </div>
+      </section>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
       <script src="https://kit.fontawesome.com/30aba88446.js" crossorigin="anonymous"></script>
       <script src="/javascripts/index.js"></script>
-
+      <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script>
+        $(document).ready(function () {
+          $('.slider').slick({
+            dots: false,
+            infinite: true,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            responsive: [
+              {
+                breakpoint: 1024,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 2,
+                  infinite: true,
+                }
+              },
+              {
+                breakpoint: 600,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 2,
+                  infinite: true,
+                }
+              },
+              {
+                breakpoint: 480,
+                settings: {
+                  slidesToShow: 1,
+                  slidesToScroll: 1,
+                  infinite: true,
+                }
+              }
+              // You can unslick at a given breakpoint now by adding:
+              // settings: "unslick"
+              // instead of a settings object
+            ]
+          });
+        });
+      </script>
   </body>
 
 </html>
