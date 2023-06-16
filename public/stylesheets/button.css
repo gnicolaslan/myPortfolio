@@ -27,6 +27,10 @@
   padding: 0.8em 1.2em 0.8em 1.05em;
 }
 
+.cssbuttons-io i {
+  margin-right: 0.5em;
+}
+
 .cssbuttons-io::before,
 .cssbuttons-io::after {
   position: absolute;
@@ -39,7 +43,7 @@
 
 .cssbuttons-io::before {
   content: "";
-  background: #000;
+  background: rgb(166, 153, 204);
   width: 120%;
   left: -10%;
   transform: skew(30deg);
