@@ -29,10 +29,19 @@
     .work-section {
         height: 100vh;
         display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .work-container {
+        display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .work-title {
@@ -42,7 +51,7 @@
         color: darkslateblue;
         font-size: 2rem;
         font-family: 'Poppins', 'sans-serif';
-        padding-bottom: 10px;
+        padding-bottom: 50px;
     }
 
     .slider {
@@ -84,11 +93,26 @@
         border-radius: 50%;
     }
 
+    .works-info {
+        width: 600px;
+        padding-left: 85px;
+    }
+
     .works-info h3 {
         font-size: 2rem;
     }
 
     .works-info h4 {
-        font-size: 1.1rem;
+        font-size: 1rem;
+    }
+
+    .work-buttons {
+        padding: 0px 15px 10px 0px;
+    }
+
+    .work-buttons a {
+        margin-right: 10px;
+        color: darkslateblue;
+        font-size: 15px;
     }
 }
