@@ -1,12 +1,13 @@
 @media (max-width: 767px) {
     .work-section {
-        height: 100vh;
+        /* height: 100vh; */
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
         align-items: center;
         justify-content: center;
+        padding-top: 80px;
     }
 
     .work-container {
@@ -100,13 +101,14 @@
 
 @media (min-width: 768px) {
     .work-section {
-        height: 100vh;
+        /* height: 110vh; */
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
         align-items: center;
         justify-content: center;
+        padding-top: 80px;
     }
 
     .work-container {
