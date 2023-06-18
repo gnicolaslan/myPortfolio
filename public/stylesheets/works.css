@@ -45,8 +45,8 @@
     }
 
     .slick-arrow {
-        height: 25px;
-        width: 25px;
+        height: 20px;
+        width: 20px;
         font-size: 1px;
         color: transparent;
         position: absolute;
@@ -55,23 +55,22 @@
     }
 
     .slick-prev {
-        left: -50px;
+        left: 5px;
         background: url("../images/arrow-left.svg");
         background-size: 100%;
         border: none;
         background-color: rgb(166, 153, 204);
         border-radius: 50%;
-        display: none !important;
+        z-index: 1;
     }
 
     .slick-next {
-        right: -50px;
+        right: 5px;
         background: url("../images/arrow-right.svg");
         background-size: 100%;
         border: none;
         background-color: rgb(166, 153, 204);
         border-radius: 50%;
-        display: none !important;
     }
 
     .works-info {

@@ -1,0 +1,132 @@
+@media (max-width: 767px) {
+    .go-top-container {
+        position: fixed;
+        bottom: 7rem;
+        left: 50%;
+        right: 50%;
+        width: 6.6rem;
+        height: 6.6rem;
+        z-index: -1;
+    }
+
+    .go-top-button {
+        width: 0rem;
+        height: 0rem;
+        background-color: rgb(166, 153, 204);
+        border-radius: 50%;
+        cursor: pointer;
+        transition: .2s;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+
+    .go-top-button i {
+        position: absolute;
+        font-size: 15px;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        color: beige;
+        transition: .2s;
+    }
+
+    .show {
+        z-index: 10;
+    }
+
+    .show .go-top-button {
+        animation: popup .3s ease-in-out;
+        width: 40px;
+        height: 40px;
+        z-index: 11;
+    }
+
+    .show i {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    @keyframes popup {
+        0% {
+            width: 0rem;
+            height: 0rem;
+        }
+
+        50% {
+            width: 85px;
+            height: 85px;
+        }
+
+        100% {
+            width: 65px;
+            height: 65px;
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .go-top-container {
+        position: fixed;
+        bottom: 4rem;
+        right: 4rem;
+        width: 6.6rem;
+        height: 6.6rem;
+        z-index: -1;
+    }
+
+    .go-top-button {
+        width: 0rem;
+        height: 0rem;
+        background-color: rgb(166, 153, 204);
+        border-radius: 50%;
+        cursor: pointer;
+        transition: .2s;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+    }
+
+    .go-top-button i {
+        position: absolute;
+        font-size: 1.5rem;
+        top: 48%;
+        left: 50%;
+        transform: translate(-50%, -50%) scale(0);
+        color: beige;
+        transition: .2s;
+    }
+
+    .show {
+        z-index: 10;
+    }
+
+    .show .go-top-button {
+        animation: popup .3s ease-in-out;
+        width: 65px;
+        height: 65px;
+        z-index: 11;
+    }
+
+    .show i {
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    @keyframes popup {
+        0% {
+            width: 0rem;
+            height: 0rem;
+        }
+
+        50% {
+            width: 85px;
+            height: 85px;
+        }
+
+        100% {
+            width: 65px;
+            height: 65px;
+        }
+    }
+}
