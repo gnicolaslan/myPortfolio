@@ -1,22 +1,32 @@
 window.sr = ScrollReveal();
 
 sr.reveal('.welcome-text', {
-    duration: 3000
+    duration: 2500
 });
 
 sr.reveal('.cssbuttons-io', {
-    duration: 3000
+    duration: 2500
 })
 
 sr.reveal('.image-container', {
-    duration: 2000
+    duration: 1500
 })
 
 sr.reveal('.self-description', {
-    duration: 3000
+    duration: 1500
 })
 
 sr.reveal('.skills-container', {
-    duration: 4500
+    duration: 2000
 })
+
+sr.reveal('.work-section', {
+    duration: 2000
+})
+
+sr.reveal('.contact-section', {
+    duration: 2000
+})
+
+
 
