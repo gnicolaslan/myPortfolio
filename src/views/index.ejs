@@ -134,53 +134,89 @@
           </ul>
         </div>
       </section>
-      <section class="work-section">
-        <div id="mis-proyectos" class="work-title">Proyectos</div>
-        <div class="slider">
-          <div><img width="450px"
-              src="https://acf.geeknetic.es/imgri/imagenes/auto/21/06/14/e57-teclados-ansi-iso-.jpg?f=webp" alt="">
+      <section class="work-section" id="mis-proyectos">
+        <img src="/images/walp-02.png" alt="" width="250px" >
+        <h3  class="work-title" >Proyectos</h3>
+        <article class="work-container">
+          <div class="slider">
+            <div><img src="https://acf.geeknetic.es/imgri/imagenes/auto/21/06/14/e57-teclados-ansi-iso-.jpg?f=webp"
+                alt="">
+            </div>
+            <div><img src="https://acf.geeknetic.es/imgri/imagenes/auto/21/06/14/e57-teclados-ansi-iso-.jpg?f=webp"
+                alt="">
+            </div>
+            <div><img src="https://acf.geeknetic.es/imgri/imagenes/auto/21/06/14/e57-teclados-ansi-iso-.jpg?f=webp"
+                alt="">
+            </div>
+            <div><img src="https://acf.geeknetic.es/imgri/imagenes/auto/21/06/14/e57-teclados-ansi-iso-.jpg?f=webp"
+                alt="">
+            </div>
           </div>
-          <div><img width="450px"
-              src="https://acf.geeknetic.es/imgri/imagenes/auto/21/06/14/e57-teclados-ansi-iso-.jpg?f=webp" alt="">
+          <div class="works-info">
+            <h3>HyperStore</h3>
+            <h4><span style="color: darkslateblue;">NodeJs</span> · <span
+                style="color: darkslateblue;">JavaScript</span>
+              · <span style="color: darkslateblue;">Express</span> · <span
+                style="color: darkslateblue;">Express-Paginate</span> ·
+              <span style="color: darkslateblue;">REST API</span> ·
+              <span style="color: darkslateblue;">MySQL</span> ·
+              <span style="color: darkslateblue;">Sequelize</span> · <span style="color: darkslateblue;">Google
+                Authentication</span> ·
+              <span style="color: darkslateblue;">Bootstrap</span>
+            </h4>
+            <ul>
+              <li>HyperStore es un sitio web de venta de hardware, desarrollado con Node.js, Express y JavaScript para
+                ofrecer una experiencia completa.</li><br>
+              <li>Con un completo CRUD, permite crear, ver, actualizar y eliminar productos y usuarios, brindando
+                funcionalidad robusta.</li><br>
+              <li>El registro y login cuentan con validaciones en cliente y servidor, junto con autenticación de Google
+                para mayor seguridad.</li><br>
+              <li>Destaca por su sección de favoritos, carrito de compras, paginador, sliders y búsqueda avanzada para
+                una navegación intuitiva.</li><br>
+              <li>Además, el dashboard basado en el patrón MVC permite un control eficiente de productos y usuarios,
+                optimizando la administración.</li><br>
+            </ul>
+            <div class="work-buttons">
+              <a href=""><span><i class="fa-brands fa-github"></i> repo</span></a>
+              <a href=""><span><i class="fa-solid fa-rocket"></i> deploy</span></a>
+            </div>
           </div>
-          <div><img width="450px"
-              src="https://acf.geeknetic.es/imgri/imagenes/auto/21/06/14/e57-teclados-ansi-iso-.jpg?f=webp" alt="">
-          </div>
-          <div><img width="450px"
-              src="https://acf.geeknetic.es/imgri/imagenes/auto/21/06/14/e57-teclados-ansi-iso-.jpg?f=webp" alt="">
-          </div>
-        </div>
-        <div class="works-info">
-          <h3>HyperStore</h3>
-          <h4><span style="color: darkslateblue;">NodeJs</span> · <span style="color: darkslateblue;">JavaScript</span>
-            · <span style="color: darkslateblue;">Express</span> ·
-            <span style="color: darkslateblue;">REST API</span> ·
-            <span style="color: darkslateblue;">MySQL</span>
-          </h4>
-          <ul>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsam aut sit nobis facilis, totam cum
-              eligendi laudantium a, consequuntur praesentium, omnis quasi repudiandae dolore molestias placeat commodi
-              eius provident.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsam aut sit nobis facilis, totam cum
-              eligendi laudantium a, consequuntur praesentium, omnis quasi repudiandae dolore molestias placeat commodi
-              eius provident.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsam aut sit nobis facilis, totam cum
-              eligendi laudantium a, consequuntur praesentium, omnis quasi repudiandae dolore molestias placeat commodi
-              eius provident.</li>
-            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ipsam aut sit nobis facilis, totam cum
-              eligendi laudantium a, consequuntur praesentium, omnis quasi repudiandae dolore molestias placeat commodi
-              eius provident.</li>
-          </ul>
-        </div>
-        <div>
-          <button class="cssbuttons-io">
-            <a href=""><span><i class="fa-brands fa-github"></i> repo</span></a>
-          </button>
-          <button class="cssbuttons-io">
-            <a href=""><span><i class="fa-solid fa-rocket"></i> deploy</span></a>
-          </button>
+          <div>
+        </article>
+      </section>
+      <section class="contact-section" >
+        <img src="/images/walp-01.png" alt="" width="250px" id="contact">
+        <h3 class="contact-title">Contacto</h3>
+        <div class="form-container">
+          <form class="row g-3 mt-3" action="">
+            <div class="col-6">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nameInput" placeholder="Ingrese su nombre*">
+            </div>
+            <div class="col-6">
+              <label for="surname" class="form-label">Apellido</label>
+              <input type="text" class="form-control" id="surnameInput" placeholder="Ingrese su apellido*">
+            </div>
+            <div class="col-12">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="emailInput" placeholder="Ingrese su email*">
+            </div>
+            <div class="col-12">
+              <label for="message" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="messageInput" placeholder="¡Dejame un mensaje!"></textarea>
+            </div>
+            <div class="form-buttons col-12 text-center">
+              <button type="submit" class="btn btn-primary mt-3">
+                Enviar
+              </button>
+              <button type="reset" class="btn btn-light mt-3">
+                Borrar
+              </button>
+            </div>
+          </form>
         </div>
       </section>
+      <%- include('./partials/footer') %>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
