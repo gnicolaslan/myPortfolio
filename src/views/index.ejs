@@ -19,6 +19,12 @@
     </section>
     <%- include('./partials/navbar') %>
       <section class="about-section" id="sobre-mi">
+        <div class="switch-container">
+          <label class="switch">
+            <input type="checkbox" id="check-item-switch">
+            <span class="slider-mode"></span>
+          </label>
+        </div>
         <div class="profile-container">
           <div>
             <img class="image-container" src="/images/profile.png" alt="profile">
@@ -31,8 +37,8 @@
               Me encanta trabajar en los detalles y en la búsqueda de la simetría visual.</p>
             <div class="social-items">
               <ul>
-                <li><a href="#" target="_blank"><i class="fa-solid fa-sheet-plastic"
-                      style="color: darkslateblue;"></i></a></li>
+                <li><a href="/assets/Gabriel-Lanzillotti-Resume.pdf" target="_blank" rel="noopener noreferrer"><i
+                      class="fa-solid fa-sheet-plastic" style="color: darkslateblue;"></i></a></li>
                 <li><a href="https://www.linkedin.com/in/gnicolaslan/" target="_blank"><i
                       class="fa-brands fa-linkedin fa-lg" style="color: darkslateblue;"></i></a></li>
                 <li><a href="https://github.com/gnicolaslan" target="_blank"><i class="fa-brands fa-square-github fa-lg"
@@ -188,7 +194,8 @@
         <img src="/images/walp-01.png" alt="" width="250px" id="contact">
         <h3 class="contact-title">Contacto</h3>
         <div class="form-container">
-          <form class="form-contact row g-3 mt-3" action="https://formsubmit.co/9d66b706a4dfef06e71c540c902940d9" method="POST">
+          <form class="form-contact row g-3 mt-3" action="https://formsubmit.co/9d66b706a4dfef06e71c540c902940d9"
+            method="POST">
             <div class="col-6">
               <label for="name" class="form-label">Nombre</label>
               <input type="text" class="form-control" id="nameInput" name="name" placeholder="Ingrese su nombre*"
@@ -233,6 +240,7 @@
           <script src="/javascripts/index.js"></script>
           <script src="/javascripts/upButton.js"></script>
           <script src="/javascripts/swal.js"></script>
+          <script src="/javascripts/darkMode.js"></script>
           <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
           <script type="text/javascript"
             src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>

@@ -65,6 +65,15 @@
     background: linear-gradient(90deg, rgba(69, 104, 220, 1) 0%, rgba(176, 106, 179, 1) 100%);
 }
 
+.nav-icons {
+    padding-left: 10px;
+}
+
+.navbar-toggler{
+    border: none;
+    line-height: 0;
+}
+
 @media (min-width: 768px) {
     .welcome-text {
         text-align: center;
