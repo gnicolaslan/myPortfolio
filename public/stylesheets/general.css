@@ -4,6 +4,7 @@ body {
   font-size: 14px;
   background: rgb(187, 179, 210);
   background: linear-gradient(90deg, rgba(187, 179, 210, 1) 0%, rgba(218, 212, 236, 1) 100%);
+  transition: 0.5s ease-in-out;
 }
 
 a:link,
@@ -28,6 +29,39 @@ p {
   margin-bottom: 0rem;
 }
 
-h1, h2, h3, h4{
+h1,
+h2,
+h3,
+h4 {
   margin-bottom: 12px;
+}
+
+.dark-mode {
+  background: linear-gradient(111.4deg, rgb(7, 7, 9) 6.5%, rgb(27, 24, 113) 93.2%);
+}
+
+.dark-mode h1,
+.dark-mode h3,
+.dark-mode h4 {
+  color: rgb(228, 228, 226);
+}
+
+.dark-mode label {
+  color: rgb(228, 228, 226);
+}
+
+.dark-mode b {
+  color: rgb(228, 228, 226);
+}
+
+.dark-mode small {
+  color: rgb(228, 228, 226);
+}
+
+.dark-mode li {
+  color: rgb(228, 228, 226);
+}
+
+.dark-mode p {
+  color: rgb(228, 228, 226);
 }

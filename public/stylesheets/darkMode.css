@@ -1,0 +1,107 @@
+@media (max-width: 767px) {
+    .switch-container {
+        padding-left: 15px;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+    }
+
+    .switch {
+        font-size: 13px;
+        position: relative;
+        display: inline-block;
+        width: 3.5em;
+        height: 2em;
+    }
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    /* The slider */
+    .slider-mode {
+        position: absolute;
+        cursor: pointer;
+        inset: 0;
+        border: 2px solid rgb(166, 153, 204);
+        border-radius: 5px;
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .slider-mode:before {
+        position: absolute;
+        content: "";
+        height: 1.4em;
+        width: 1.4em;
+        left: 0.2em;
+        bottom: 0.15em;
+        background-color: rgb(166, 153, 204);
+        border-radius: inherit;
+        transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+    }
+
+    .switch input:checked+.slider-mode {
+        box-shadow: 0 0 10px rgb(166, 153, 204);
+        border: 2px solid rgb(166, 153, 204);
+    }
+
+    .switch input:checked+.slider-mode:before {
+        transform: translateX(1.5em);
+    }
+}
+
+@media (min-width: 768px) {
+    .switch-container {
+        padding-left: 15px;
+        position: absolute;
+        top: 15px;
+        right: 25px;
+    }
+
+    .switch {
+        font-size: 13px;
+        position: relative;
+        display: inline-block;
+        width: 3.5em;
+        height: 2em;
+    }
+
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
+
+    /* The slider */
+    .slider-mode {
+        position: absolute;
+        cursor: pointer;
+        inset: 0;
+        border: 2px solid rgb(166, 153, 204);
+        border-radius: 5px;
+        transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    .slider-mode:before {
+        position: absolute;
+        content: "";
+        height: 1.4em;
+        width: 1.4em;
+        left: 0.2em;
+        bottom: 0.15em;
+        background-color: rgb(166, 153, 204);
+        border-radius: inherit;
+        transition: all 0.4s cubic-bezier(0.23, 1, 0.320, 1);
+    }
+
+    .switch input:checked+.slider-mode {
+        box-shadow: 0 0 10px rgb(166, 153, 204);
+        border: 2px solid rgb(166, 153, 204);
+    }
+
+    .switch input:checked+.slider-mode:before {
+        transform: translateX(1.5em);
+    }
+}
