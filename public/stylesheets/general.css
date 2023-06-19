@@ -4,7 +4,6 @@ body {
   font-size: 14px;
   background: rgb(187, 179, 210);
   background: linear-gradient(90deg, rgba(187, 179, 210, 1) 0%, rgba(218, 212, 236, 1) 100%);
-  transition: 0.5s ease-in-out;
 }
 
 a:link,
